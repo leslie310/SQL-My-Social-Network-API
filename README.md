@@ -25,5 +25,4 @@ SO THAT my website can handle large amounts of unstructured data
 
 ## Additional Info
 -Github: [leslie310](https://github.com/leslie310)
--Link for video -->
 
