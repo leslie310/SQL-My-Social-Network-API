@@ -24,3 +24,6 @@ In this App you will be able to add a user, update a user, get all users. Same a
 ## Additional Info
 -Github: [leslie310](https://github.com/leslie310)
 
+## Image 
+
+![insomnia](https://user-images.githubusercontent.com/107505768/188255863-5ee1f4e2-1620-4e7e-9f25-b18a41194dae.PNG)
