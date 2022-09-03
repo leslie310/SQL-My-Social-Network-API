@@ -23,5 +23,4 @@ In this App you will be able to add a user, update a user, get all users. Same a
 
 ## Additional Info
 -Github: [leslie310](https://github.com/leslie310)
--Link for video -->
 
