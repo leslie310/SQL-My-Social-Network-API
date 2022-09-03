@@ -6,34 +6,34 @@ const userSchema = new Schema(
             type: String,
             unique:true,
             trim:true,
-            required: 'Username required',
+            required: true,
         },
 
         email: {
             type: String,
             unique: true,
-            required:'Email is required',
+            required:true,
             match: [/.+@.+\..+/],
         },
         
         thoughts: [
             {
                 type: Schema.Types.ObjectId,
-                ref: 'Thoguht',
+                ref: 'thought',
             },
         ],
         
         friends: [
             {
                 type:Schema.Types.ObjectId,
-                ref: 'User',
+                ref: 'user',
             },
         ],
     },
     {
         toJSON: {
             virtuals: true,
-            getters: true,
+            
           },
           id: false,
     }
@@ -41,10 +41,10 @@ const userSchema = new Schema(
 userSchema.virtual('friendCount')
 // Getter
 .get(function () {
-  return this.friend.length;
+  return this.friends.length;
 });
 
 // Initialize our User model
-const User = model('User', userSchema);
+const User = model('user', userSchema);
 
 module.exports = User;

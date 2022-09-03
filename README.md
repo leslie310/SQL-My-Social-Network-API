@@ -10,9 +10,7 @@
 - [Additional Info](#additional-info)
 
 ## Description 
-AS A social media startup
-I WANT an API for my social network that uses a NoSQL database
-SO THAT my website can handle large amounts of unstructured data
+In this App you will be able to add a user, update a user, get all users. Same as thoughts you will be able to add thoughts as well as update them for each user.
 
 ## Installation
 * Install node
